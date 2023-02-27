@@ -1,5 +1,10 @@
-from django.http import JsonResponse, HttpResponse
-from .utils import retrieve_country_stats_from_arcgis, retrieve_global_stats_from_arcgis, retrieve_latest_news
+from django.http import HttpResponse, JsonResponse
+
+from .utils import (  # isort:skip
+    retrieve_country_stats_from_arcgis,
+    retrieve_global_stats_from_arcgis,
+    retrieve_latest_news,
+)
 
 
 def get_stats_country(request):
