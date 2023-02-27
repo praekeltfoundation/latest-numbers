@@ -17,7 +17,7 @@ def should_not_have_to_update(updated_at):
 
 def less_than_a_day_old(updated_at):
     diff_more_than_day = (now_aware - updated_at) < timedelta(days=1)
-    print("Difference is less than an hour: ", diff_more_than_day)
+    print("Difference is less than a day: ", diff_more_than_day)
     return diff_more_than_day
 
 

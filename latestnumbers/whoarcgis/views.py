@@ -14,10 +14,10 @@ def get_stats_country(request):
 
 
 def get_stats_global(request):
-    statistic = retrieve_global_stats_from_arcgis()
-    return JsonResponse(statistic)
+    stats = retrieve_global_stats_from_arcgis()
+    return JsonResponse(stats)
 
 
 def get_latest_news(request):
-    statistic = retrieve_latest_news()
-    return HttpResponse(statistic)
+    news = retrieve_latest_news()
+    return HttpResponse(news)
