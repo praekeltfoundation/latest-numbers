@@ -12,7 +12,7 @@ setup(
     install_requires=[
         "Django==4.1.7",
         "djangorestframework==3.14.0",
-        "requests==2.28.2"
+        "requests==2.28.2",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
