@@ -16,5 +16,5 @@ jobs:
           password: ${{secrets.GITHUB_TOKEN}}
           image: praekeltfoundation/latestnumbers
           tags: true
-          tags_with_sha: true
+          tag_with_sha: true
           registry: ghcr.io
