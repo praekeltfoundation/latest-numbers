@@ -14,7 +14,7 @@ jobs:
         with:
           username: ${{github.actor}}
           password: ${{secrets.GH_TOKEN}}
-          image: praekeltfoundation/latestnumbers
+          repository: praekeltfoundation/latestnumbers
           tags: true
           tag_with_sha: true
           registry: ghcr.io
