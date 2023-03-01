@@ -1,4 +1,4 @@
-FROM praekeltfoundation/django-bootstrap:py3.10
+FROM python:3.10.6-slim-buster
 
 COPY ./requirements.txt /app/
 COPY ./setup.py /app/
