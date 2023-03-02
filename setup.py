@@ -13,6 +13,8 @@ setup(
         "Django==4.1.7",
         "djangorestframework==3.14.0",
         "requests==2.28.2",
+        "django-environ",
+        "dj-database-url"
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
