@@ -14,7 +14,8 @@ setup(
         "djangorestframework==3.14.0",
         "requests==2.28.2",
         "django-environ",
-        "dj-database-url"
+        "dj-database-url",
+        "psycopg2-binary"
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
