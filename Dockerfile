@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim-buster
+FROM ghcr.io/praekeltfoundation/docker-django-bootstrap-nw:py3.10-buster
 
 COPY ./requirements.txt /app/
 COPY ./setup.py /app/

@@ -8,7 +8,7 @@ root = environ.Path(__file__) - 3
 env = environ.Env(DEBUG=(bool, False))
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 ROOT_DIR = root()
 environ.Env.read_env(join(ROOT_DIR, ".env"))
