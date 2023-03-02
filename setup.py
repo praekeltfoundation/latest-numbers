@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="latest-numbers",
+    name="latestnumbers",
     version="1.0.0",
     url="http://github.com/praekeltfoundation/latest-numbers",
     license="BSD",

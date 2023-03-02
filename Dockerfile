@@ -6,7 +6,7 @@ COPY ./setup.py /app/
 RUN pip install -r /app/requirements.txt
 
 COPY . /app
-
+WORKDIR /app
 # temporary until there is a new PyCap Release
 ENV DJANGO_SETTINGS_MODULE "latestnumbers.settings.production"
 CMD [\
