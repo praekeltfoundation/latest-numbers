@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "Django==4.1.7",
+        "Django==4.1.10",
         "djangorestframework==3.14.0",
         "requests==2.28.2",
         "django-environ",
